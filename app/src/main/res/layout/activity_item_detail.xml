@@ -1,7 +1,123 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/item_detail_container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ItemDetailActivity"
-    tools:ignore="MergeRootFrame" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="@string/first_topic"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="25dp" />
+
+        　　</LinearLayout>
+
+    <View
+        android:id="@+id/first_hr"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/first"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/first_hr"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="@string/second_topic"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/second_hr"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/second"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/therd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/second_hr"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="@string/therd_topic"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/therd_hr"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/therd"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/forth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/therd_hr"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="@string/forth_topic"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/forth_hr"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/forth"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/forth_hr"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="@string/fifth_topic"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="25dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/fifth_hr"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/fifth"
+        android:background="@android:color/black" />
+
+</RelativeLayout>
