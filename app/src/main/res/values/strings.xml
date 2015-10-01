@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">security_bill.guide</string>
-    <string name="title_item_detail">ほげら！</string>
+    <string name="app_name">安保法案完全ガイド</string>
+    <string name="first_topic">安保法案の中身</string>
+    <string name="second_topic">アーミテージ・ナイレポートとは</string>
+    <string name="therd_topic">安倍内閣と日本会議</string>
+    <string name="forth_topic">南シナ海</string>
+    <string name="fifth_topic">イスラム国</string>
+    <string name="six_topic">南スーダン</string>
 
 </resources>
